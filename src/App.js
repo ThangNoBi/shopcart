@@ -14,7 +14,7 @@ function App() {
       {/* <Route path="/products" component={SlickCarousel} /> */}
       <Switch>
         {/* <Redirect from="/" to="/products" component={Product} /> */}
-        <Route path="/products" component={Product} />
+        {/* <Route path="/products" component={Product} /> */}
         {/* <Route path="/shopcart" component={Product} /> */}
         {/* <Route path="/cart" component={CartMain} />  */}
       </Switch>
