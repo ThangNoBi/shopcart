@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Redirect from="/shopcart" to="/products" />
+      {/* <Redirect from="/shopcart" to="/products" /> */}
       {/* <Route path="/products" component={SlickCarousel} /> */}
       <Switch>
         <Route path="/products" component={Product} />
