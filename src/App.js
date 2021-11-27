@@ -5,16 +5,17 @@ import Product from "./features/Products";
 import Header from "./components/Header";
 import CartMain from "./features/Cart";
 import FooterComponent from "./components/Footer";
-import SlickCarousel from "./components/SlickCarousel";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Redirect from="/" to="/products" />
+      {/* <Redirect from="/" to="/products" component={Product} /> */}
       {/* <Route path="/products" component={SlickCarousel} /> */}
       <Switch>
+        {/* <Redirect from="/" to="/products" component={Product} /> */}
         <Route path="/products" component={Product} />
+        <Route path="/shopcart" component={Product} />
         <Route path="/cart" component={CartMain} />
       </Switch>
       <FooterComponent />
