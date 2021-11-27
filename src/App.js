@@ -10,13 +10,12 @@ function App() {
   return (
     <div className="App">
       <Header />
-      {/* <Redirect from="/shopcart" to="/products" /> */}
+      <Redirect from="/shopcart" to="/products" />
       {/* <Route path="/products" component={SlickCarousel} /> */}
       <Switch>
-        {/* <Redirect from="/" to="/products" component={Product} /> */}
-        {/* <Route path="/products" component={Product} /> */}
-        {/* <Route path="/shopcart" component={Product} /> */}
-        {/* <Route path="/cart" component={CartMain} />  */}
+        <Route path="/products" component={Product} />
+        <Route path="/shopcart" component={Product} />
+        <Route path="/cart" component={CartMain} />
       </Switch>
       <FooterComponent />
     </div>
